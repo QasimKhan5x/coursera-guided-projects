@@ -1,0 +1,2 @@
+The different flavors of AutoML https://www.h2o.ai/blog/the-different-flavors-of-automl/
+Getting started with H2O using Flow https://www.h2o.ai/blog/getting-started-with-h2o-using-flow/
