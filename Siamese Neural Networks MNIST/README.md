@@ -13,4 +13,4 @@ Implementation of a Siamese Network using MNIST dataset in Keras.
 - Maximize difference between anchor and negative image
 - In other words, `pos_loss - neg_loss <= 0`
 - Add noise to make the loss non-trivial
-- `Asymptotically, max(loss, 0) should always be 0`
+- Asymptotically, `max(loss, 0)` should always be 0
