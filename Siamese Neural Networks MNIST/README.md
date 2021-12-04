@@ -8,9 +8,10 @@ Implementation of a Siamese Network using MNIST dataset in Keras.
 3. Concatenate the embeddings and return them
 
 ## Loss
-- Calculate difference between embeddings of anchor and image using RMSE
-- Minimize difference between anchor and positive image
-- Maximize difference between anchor and negative image
-- In other words, `diff = pos_loss - neg_loss <= 0`
-- Add noise to make the loss non-trivial, i.e. `diff += alpha`
-- Asymptotically, `max(diff, 0)` should always be 0
+1. Calculate difference between embeddings of anchor and image using RMSE
+2. Minimize difference between anchor and positive image
+3. Maximize difference between anchor and negative image
+4. In other words, `diff = pos_loss - neg_loss <= 0`
+5. Add noise to make the loss non-trivial, i.e. `diff += alpha`
+
+Asymptotically, `max(diff, 0)` should always be 0
